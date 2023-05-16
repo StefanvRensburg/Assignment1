@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+// 33706956
+// Stefan Janse van Rensburg
 namespace Assignment1
 {
     
@@ -36,6 +37,7 @@ namespace Assignment1
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            // data is saved into public variables
             fType = tbxType.Text;
             fName = tbxName.Text;
             fStock = tbxStock.Text;

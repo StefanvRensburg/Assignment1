@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// 33706956
+// Stefan Janse van Rensburg
 
 namespace Assignment1
 {
@@ -28,7 +30,7 @@ namespace Assignment1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            // checks if the checkboxes are ticked and save data into public variables
             if (cbxYes.Checked)
             {
                

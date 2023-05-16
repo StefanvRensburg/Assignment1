@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+// 33706956
+// Stefan Janse van Rensburg
 namespace Assignment1
 {
     public partial class frmLogin : Form
@@ -21,7 +23,7 @@ namespace Assignment1
         
 
         
-
+        // public connection
 
         public string connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\OneDrive\OneDrive - North-West University\2023\CMPG212\Assignments\Assignment1\Assignment1\BeetleCaf.mdf;Integrated Security=True";
         public frmLogin()
@@ -36,7 +38,7 @@ namespace Assignment1
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-
+            // checks to see if the username and password entered match the username and password int the database
               string Un, Pw;
 
               Un = tbxUsername.Text;

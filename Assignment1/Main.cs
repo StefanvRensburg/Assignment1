@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// 33706956
+// Stefan Janse van Rensburg
 namespace Assignment1
 {
     public partial class Main : Form
@@ -25,6 +27,7 @@ namespace Assignment1
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // sets the parent for the forms and displays the forms
             label1.SendToBack();
             pictureBox1.SendToBack();
             frmNewOrder No = new frmNewOrder();
