@@ -311,5 +311,11 @@ namespace Assignment1
 
 
         }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            frmReport report = new frmReport();
+            report.Show();
+        }
     }
 }
